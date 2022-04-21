@@ -7,6 +7,7 @@ cn=admin,dc=7otech,dc=com
 admin
 
 sudo yum install openldap
+sudo yum install openldap-servers
 
 sudo docker run -p 389:389 -p 636:636 --name my-openldap-container --detach osixia/openldap:1.5.0
 sudo docker run -p 389:389 -p 636:636 \
@@ -26,4 +27,6 @@ admin
 
 ldap://172.21.16.11:389
 dc=7otech,dc=com
+
+https://zhuanlan.zhihu.com/p/445690193
 ```
