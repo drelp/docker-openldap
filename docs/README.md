@@ -29,4 +29,5 @@ ldap://172.21.16.11:389
 dc=7otech,dc=com
 
 https://zhuanlan.zhihu.com/p/445690193
+https://www.cnblogs.com/dufeixiang/p/11624210.html
 ```
