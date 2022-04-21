@@ -2,6 +2,10 @@
 sudo docker-compose up
 sudo docker-compose up -d
 
+http://49.232.6.131:8074/
+cn=admin,dc=7otech,dc=com
+admin
+
 sudo yum install openldap
 
 sudo docker run -p 389:389 -p 636:636 --name my-openldap-container --detach osixia/openldap:1.5.0
@@ -15,7 +19,8 @@ sudo docker exec my-openldap-container ldapsearch -x -H ldap://localhost -b dc=7
 sudo docker run -p 8074:443 \
         --env PHPLDAPADMIN_LDAP_HOSTS=172.21.16.11 \
         --detach osixia/phpldapadmin:0.9.0
-        
+
+https://49.232.6.131:8074/
 cn=admin,dc=7otech,dc=com
 admin
 
