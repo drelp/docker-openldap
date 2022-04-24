@@ -34,6 +34,7 @@ cn=test,ou=People,dc=7otech,dc=com
 
 https://zhuanlan.zhihu.com/p/445690193
 https://www.cnblogs.com/dufeixiang/p/11624210.html
+https://zhuanlan.zhihu.com/p/445692541
 ```
 
 ```
