@@ -28,7 +28,8 @@ admin
 ldap://172.21.16.11:389
 dc=7otech,dc=com
 
-ou=tech,dc=7otech,dc=
+ou=tech,dc=7otech,dc=com
+ou=People,dc=7otech,dc=com
 
 cn=test,ou=People,dc=7otech,dc=com
 
